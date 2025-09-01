@@ -1,5 +1,5 @@
 {
-    "name": "godjarvis/database",
+    "name": "simple/database",
     "description": "database tools from godjarvis",
     "type": "library",
     "license": "MIT",
