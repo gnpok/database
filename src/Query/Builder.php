@@ -856,7 +856,7 @@ class Builder
 
     public function toFullSql()
     {
-        $sql = $this->sql;
+        $sql = $this->sql = $this->toSql();
         foreach ($this->getBindings() as $key => $value) {
             $position = strpos($sql, '?');
             if ($position !== false) {
